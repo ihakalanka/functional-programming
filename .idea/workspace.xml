@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a58ea2d5-4e2f-4f6a-aa8b-f19da826b308" name="Changes" comment="sorted employee stream api created">
+    <list default="true" id="a58ea2d5-4e2f-4f6a-aa8b-f19da826b308" name="Changes" comment="total salary stream api created">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +90,7 @@
       <workItem from="1674025678962" duration="1497000" />
       <workItem from="1674028171565" duration="590000" />
       <workItem from="1674048282501" duration="499000" />
-      <workItem from="1674055289499" duration="5749000" />
+      <workItem from="1674055289499" duration="6076000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1674025777333</created>
@@ -183,7 +183,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674064439073</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="max employee stream api created">
+      <created>1674064724766</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1674064724766</updated>
+    </task>
+    <task id="LOCAL-00015" summary="total salary stream api created">
+      <created>1674065000959</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1674065000959</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +217,8 @@
     <MESSAGE value="limit employees list stream api created" />
     <MESSAGE value="generate finite number of values stream api created" />
     <MESSAGE value="sorted employee stream api created" />
-    <option name="LAST_COMMIT_MESSAGE" value="sorted employee stream api created" />
+    <MESSAGE value="max employee stream api created" />
+    <MESSAGE value="total salary stream api created" />
+    <option name="LAST_COMMIT_MESSAGE" value="total salary stream api created" />
   </component>
 </project>
