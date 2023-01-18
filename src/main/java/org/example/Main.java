@@ -41,6 +41,11 @@ public class Main {
                 .collect(Collectors.toList());
         System.out.println(filteredEmployees);
 
+        System.out.println("===================================");
 
+        Employee employee = employees.stream()
+                .filter(emp -> emp.getFirstName().equals("Naveen"))
+                .findAny()
+                .orElse(null);
     }
 }
