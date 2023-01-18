@@ -66,6 +66,13 @@ public class Main {
 
         System.out.println("===================================");
 
+        List<Employee> sortedEmployees = employees.stream()
+                .sorted((emp1, emp2) -> emp1.getSalary().compareTo(emp2.getSalary()))
+                .collect(Collectors.toList());
+        System.out.println(sortedEmployees);
+
+        System.out.println("===================================");
+
 
     }
 }
