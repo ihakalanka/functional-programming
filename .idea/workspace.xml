@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a58ea2d5-4e2f-4f6a-aa8b-f19da826b308" name="Changes" comment="cars json file added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a58ea2d5-4e2f-4f6a-aa8b-f19da826b308" name="Changes" comment="employee class implemented">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cars.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -86,7 +85,7 @@
       <workItem from="1674025678962" duration="1497000" />
       <workItem from="1674028171565" duration="590000" />
       <workItem from="1674048282501" duration="499000" />
-      <workItem from="1674055289499" duration="938000" />
+      <workItem from="1674055289499" duration="1275000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1674025777333</created>
@@ -102,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674048445218</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="employee class created">
+      <created>1674058435146</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674058435146</updated>
+    </task>
+    <task id="LOCAL-00004" summary="employee class implemented">
+      <created>1674058580911</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674058580911</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +124,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="cars json file added" />
-    <option name="LAST_COMMIT_MESSAGE" value="cars json file added" />
+    <MESSAGE value="employee class created" />
+    <MESSAGE value="employee class implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="employee class implemented" />
   </component>
 </project>
