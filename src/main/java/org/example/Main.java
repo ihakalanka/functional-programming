@@ -3,6 +3,7 @@ package org.example;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Main {
     static List<Employee> employees = new ArrayList<>();
@@ -56,6 +57,12 @@ public class Main {
                 .limit(1)
                 .collect(Collectors.toList());
         System.out.println(shortCircuitEmployees);
+
+        System.out.println("===================================");
+
+        Stream.generate(Math::random)
+                .limit(10)
+                .forEach(System.out::println);
 
         System.out.println("===================================");
 

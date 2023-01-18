@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a58ea2d5-4e2f-4f6a-aa8b-f19da826b308" name="Changes" comment="filter employees list stream api created">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a58ea2d5-4e2f-4f6a-aa8b-f19da826b308" name="Changes" comment="limit employees list stream api created">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +90,7 @@
       <workItem from="1674025678962" duration="1497000" />
       <workItem from="1674028171565" duration="590000" />
       <workItem from="1674048282501" duration="499000" />
-      <workItem from="1674055289499" duration="4771000" />
+      <workItem from="1674055289499" duration="5090000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1674025777333</created>
@@ -163,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674063290394</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="limit employees list stream api created">
+      <created>1674063866538</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1674063866538</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +186,7 @@
     <MESSAGE value="map stream api created" />
     <MESSAGE value="filter employee list stream api created" />
     <MESSAGE value="filter employees list stream api created" />
-    <option name="LAST_COMMIT_MESSAGE" value="filter employees list stream api created" />
+    <MESSAGE value="limit employees list stream api created" />
+    <option name="LAST_COMMIT_MESSAGE" value="limit employees list stream api created" />
   </component>
 </project>
