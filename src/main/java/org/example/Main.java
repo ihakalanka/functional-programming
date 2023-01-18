@@ -1,7 +1,9 @@
 package org.example;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -70,6 +72,12 @@ public class Main {
                 .sorted((emp1, emp2) -> emp1.getSalary().compareTo(emp2.getSalary()))
                 .collect(Collectors.toList());
         System.out.println(sortedEmployees);
+
+        System.out.println("===================================");
+
+        employees.stream()
+                .max(Comparator.comparing(Employee::getSalary))
+                .orElseThrow(NoSuchElementException::new);
 
         System.out.println("===================================");
 
