@@ -44,8 +44,21 @@ public class Main {
         System.out.println("===================================");
 
         Employee employee = employees.stream()
-                .filter(emp -> emp.getFirstName().equals("Naveen"))
+                .filter(emp -> emp.getSalary() > 7000.0)
                 .findAny()
                 .orElse(null);
+        System.out.println(employee);
+
+        System.out.println("===================================");
+
+        List<Employee> shortCircuitEmployees = employees.stream()
+                .skip(2)
+                .limit(1)
+                .collect(Collectors.toList());
+        System.out.println(shortCircuitEmployees);
+
+        System.out.println("===================================");
+
+
     }
 }
