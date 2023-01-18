@@ -2,6 +2,7 @@ package org.example;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Main {
     static List<Employee> employees = new ArrayList<>();
@@ -20,6 +21,16 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        employees.stream().forEach(employee -> System.out.println(employee));
+
+        System.out.println("===================================");
+
+        List<Employee> increasedSalaryEmployees = employees.stream()
+                .map(employee -> {
+                    employee.setSalary(employee.getSalary() + 1000.0);
+                    return employee;
+                })
+                .collect(Collectors.toList());
+        System.out.println(increasedSalaryEmployees);
     }
 }
