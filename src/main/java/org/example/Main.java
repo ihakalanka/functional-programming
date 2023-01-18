@@ -75,12 +75,16 @@ public class Main {
 
         System.out.println("===================================");
 
-        employees.stream()
+        Employee max = employees.stream()
                 .max(Comparator.comparing(Employee::getSalary))
                 .orElseThrow(NoSuchElementException::new);
+        System.out.println(max);
 
         System.out.println("===================================");
 
-
+        Double totalSalary = employees.stream()
+                .map(emp -> emp.getSalary())
+                .reduce(0.0,Double::sum);
+        System.out.println(totalSalary);
     }
 }
