@@ -32,5 +32,15 @@ public class Main {
                 })
                 .collect(Collectors.toList());
         System.out.println(increasedSalaryEmployees);
+
+        System.out.println("===================================");
+
+        List<Employee> filteredEmployees = employees
+                .stream()
+                .filter(employee -> employee.getSalary() > 6000.0)
+                .collect(Collectors.toList());
+        System.out.println(filteredEmployees);
+
+
     }
 }
